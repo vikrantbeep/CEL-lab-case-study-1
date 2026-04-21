@@ -1,9 +1,9 @@
 clc;
 clear;
 
-% --------------------------------------
+
 % DYNAMIC LEONTIEF GROWTH MODEL
-% --------------------------------------
+
 
 % 1. Technical Coefficient Matrix (A)
 A = [0.30 0.20 0.10;
@@ -35,9 +35,9 @@ B = [0.5 0   0;
 % 8. Investment Required for Growth
 Investment = B * (X_t1 - X_t);
 
-% --------------------------------------
+
 % Display Results
-% --------------------------------------
+
 
 disp('Output This Year X(t):')
 disp(X_t)
